@@ -10,10 +10,11 @@
 		"url": "https://github.com/sylvainpolletvillard/ObjectModel.git"
 	},
 	"scripts": {
-		"postinstall": "npm install -g grunt-cli"
+		"start": "grunt"
 	},
 	"devDependencies": {
 		"grunt": ">=0.4.5",
+		"grunt-cli": ">=1.0.0",
 		"grunt-browserify": "~5.0.0",
 		"grunt-contrib-compress": "~1.1.1",
 		"grunt-contrib-concat": "~1.0.0",
